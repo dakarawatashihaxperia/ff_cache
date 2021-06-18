@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Cache Switcher",
+    "version": "0.0.1",
+    "author": "tatsupra",
+    "applications": {
+        "gecko": {
+            "id": "cacheswitcher@fukachan.com"
+        }
+    },
+    "icons": {
+        "48": "icons/icon-48.png",
+        "96": "icons/icon-96.png"
+    },
+    "permissions": [
+        "storage",
+        "browserSettings"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "icons/icon.svg"
+    }
+}
